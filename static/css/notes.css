@@ -1,18 +1,56 @@
 /*
- * CSS stylesheet for home page
+ * This is the CSS stylesheet for the notes creation/update/delete application
  */
 
- div.blog {
+ .container {
+    padding: 10px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.display, .editor {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 2px solid darkgrey;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+display div, .editor div {
+    margin-bottom: 5px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+button {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    background-color: #eee;
+}
+
+input[type=text] {
+    width: 550px;
+}
+
+div.notes {
     margin: 10px 10px 10px 10px;
     border: 2px solid darkgrey;
 }
 
-.blog table {
-    border-collapse: collapse;
+table {
     width: 100%;
+    border-collapse: collapse;
 }
 
-.blog table caption {
+table caption {
     font-weight: bold;
     padding: 10px 0 10px 0;
     border-bottom: 2px solid darkgrey;
@@ -34,7 +72,7 @@ td.name {
 
 td.timestamp {
     text-align: center;
-    width: 280px;
+    width: 230px;
 }
 
 td.content {
@@ -46,7 +84,7 @@ tbody tr:nth-child(odd) {
     background-color: gainsboro;
 }
 
-tbody td.name, tbody td.content {
+tbody tr {
     cursor: pointer;
     height: 33px;
 }
@@ -62,4 +100,11 @@ tbody tr:not(:last-child){
 
 tbody tr:hover {
     background-color: powderblue;
+}
+.content {
+    width: 70%;
+}
+
+.timestamp {
+    width: 30%;
 }
