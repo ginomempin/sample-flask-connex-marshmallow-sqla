@@ -37,3 +37,4 @@
 ## References
 
 * [Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 2](https://realpython.com/flask-connexion-rest-api-part-2/) @ [RealPython](https://realpython.com/)
+* [Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 3](https://realpython.com/flask-connexion-rest-api-part-3/) @ [RealPython](https://realpython.com/)
