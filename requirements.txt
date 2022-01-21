@@ -18,7 +18,7 @@ flask-marshmallow==0.13.0
 Flask-SQLAlchemy==2.4.4
 idna==2.10
 inflection==0.5.0
-ipython==7.16.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 isort==4.3.21
 itsdangerous==1.1.0
