@@ -33,7 +33,7 @@ marshmallow-sqlalchemy==0.23.1
 matplotlib==3.2.2
 mccabe==0.6.1
 more-itertools==8.4.0
-numpy==1.19.0
+numpy==1.22.0
 openapi-spec-validator==0.2.8
 packaging==20.4
 parso==0.7.0
